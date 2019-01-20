@@ -1,4 +1,4 @@
-from libAlexa.Core.CapabilityBase import CapabilityBase
+from libAlexa.Core.CapatibilityBase import CapabilityBase
 from libAlexa.Core.Interfaces import Interfaces
 from libAlexa.Core.Properties import Properties
 

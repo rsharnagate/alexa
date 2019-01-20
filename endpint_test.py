@@ -1,9 +1,9 @@
 from libAlexa.Core.Endpoint import Endpoint
-from libAlexa.Controller.Power import Power
-from libAlexa.Controller.Speaker import Speaker
-from libAlexa.Controller.Channel import Channel
-from libAlexa.Controller.EndpointHealth import EndpointHealth
-from libAlexa.Controller.Alexa import Alexa
+from libAlexa.Endpoint.Power import Power
+from libAlexa.Endpoint.Speaker import Speaker
+from libAlexa.Endpoint.Channel import Channel
+from libAlexa.Endpoint.EndpointHealth import EndpointHealth
+from libAlexa.Endpoint.Alexa import Alexa
 
 endpoint = Endpoint("RBS-LIVING-ROOM-TV-01", "TataSky", "TataSky", "TataSky connected TV")
 endpoint.add_displayCategories("TV")
